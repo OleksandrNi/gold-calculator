@@ -1,0 +1,37 @@
+.signin {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 77px;
+  height: 33px;
+  padding: 0;
+  border: 1px solid #ffffff;
+  background: transparent;
+  filter: drop-shadow(1px 2px 5px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  transition: 0.3s;
+
+  @media (min-width: 768px) {
+    border: none;
+    display: none;
+    &:hover {
+      color: #e9b109;
+    }
+  }
+
+  @media (min-width: 868px) {
+    border: none;
+    display: flex;
+    &:hover {
+      color: #e9b109;
+    }
+  }
+}

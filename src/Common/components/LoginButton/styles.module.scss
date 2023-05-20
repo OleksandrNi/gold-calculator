@@ -1,0 +1,39 @@
+.login {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 74px;
+  height: 33px;
+  border: none;
+  background: #e9b109;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #142241;
+
+  &:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.35),
+        rgba(255, 255, 255, 0.35)
+      ),
+      #e9b109;
+    box-shadow: 1px 2px 5px rgba(150, 188, 25, 0.1);
+  }
+
+  @media (min-width: 768px) {
+    width: 80px;
+    height: 37px;
+  }
+
+  @media (min-width: 868px) {
+    width: 90px;
+    height: 37px;
+  }
+}
