@@ -30,7 +30,6 @@ export default function CommonCalculator() {
         id="price"
         label="Price"
         variant="outlined"
-        // value={calculatedAmount}
         value={`${selectedCurrency.name}: ${calculatedAmount}`}
         disabled
       />

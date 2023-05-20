@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { selectCurrency } from "../../../store/currencySlice";
-import styles from "./styles.module.scss";
+import { useAppSelector } from "../../../hook";
 
 import { ReactComponent as AUD } from "./images/Aud.svg";
 import { ReactComponent as CAD } from "./images/Cad.svg";
@@ -10,7 +10,8 @@ import { ReactComponent as GBR } from "./images/Gbr.svg";
 import { ReactComponent as USD } from "./images/Usd.svg";
 import { ReactComponent as ArrowUp } from "./images/Arrow_Up.svg";
 import { ReactComponent as ArrowDown } from "./images/Arrow_Down.svg";
-import { useAppSelector } from "../../../hook";
+
+import styles from "./styles.module.scss";
 
 interface Currency {
   name: string;

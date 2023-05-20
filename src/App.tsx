@@ -1,4 +1,3 @@
-import "./App.css";
 import CommonCalculator from "./Common/Calculator";
 import CommonNavbar from "./Common/Navbar";
 
