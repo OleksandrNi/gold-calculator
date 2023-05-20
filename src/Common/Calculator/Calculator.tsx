@@ -11,7 +11,7 @@ export default function CommonCalculator() {
   const [amount, setAmount] = useState(0);
 
   const handleAmountChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const value = Number(event.target.value);
+    const value = parseFloat(event.target.value.replace(/[^0-9.]/g, "")); // Преобразование строки в число
     setAmount(value);
   };
 
